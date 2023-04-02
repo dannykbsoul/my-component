@@ -1,7 +1,13 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { AddCircle } from "@vicons/ionicons5";
+</script>
 
 <template>
-  <div>233</div>
+  <div>
+    <z-icon :color="'blue'" :size="23">
+      <AddCircle />
+    </z-icon>
+  </div>
 </template>
 
 <style scoped>
